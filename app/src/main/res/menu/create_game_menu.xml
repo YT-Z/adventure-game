@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cut_item"
+        android:title="Cut"
+        android:onClick="onCut"/>
+    <item android:id="@+id/copy_item"
+        android:title="Copy"
+        android:onClick="onCopy"/>
+    <item android:id="@+id/paste_item"
+        android:title="Paste"
+        android:onClick="onPaste"/>
+    <item android:id="@+id/save_item"
+        android:title="Save"
+        android:onClick="onSaveGame"/>
+    <item android:id="@+id/play_item"
+        android:title="Play"
+        android:onClick="onPlayGame"/>
+</menu>
